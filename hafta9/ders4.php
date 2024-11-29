@@ -1,0 +1,48 @@
+<?php
+$kutuphane=[
+     "Kitabın Adı:"=>"Nutuk",
+	 "Kitabın Yazarı:"=>"Mustafa Kemal Atatürk",
+	 "Yayınevi"=>"Yapı Kredi Yaayınlar"
+	 
+	 ],
+	 [
+	  "Kitabın Adı:"=>"Küçük Prens",
+	 "Kitabın Yazarı:"=>"Antoine de Saint-Exupery",
+	 "Yayınevi"=>"Can Çocuk Yayınları"
+	 ]
+	
+	];
+	foreach($kutuphanes as $kitap)
+	{
+		  foreach($kitap as $anahtar=>$deger)
+		  {
+			  echo $anahtar." - ".$deger."<br>";
+		  }
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
